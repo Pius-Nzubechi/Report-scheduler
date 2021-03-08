@@ -1,0 +1,70 @@
+.wrapper {
+  height: 85vh;
+  width: 50%;
+  padding-bottom: 30px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+
+.form-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px gray;
+  background-color: honeydew;
+  height: 100vh;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+input::placeholder {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: gray;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+.subject,
+.email,
+.file,
+.schedule {
+  margin-top: 30px;
+}
+
+.sendReport {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
